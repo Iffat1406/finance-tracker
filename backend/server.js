@@ -15,7 +15,7 @@ const _dirname = path.resolve();
 // middleware
 app.use(express.json())
 app.use(cors({
-    origin: "http://localhost:5173",  // Update to match frontend URL
+    origin: "https://finance-tracker-ihzg.onrender.com",  // Update to match frontend URL
     credentials: true
 }))
 
